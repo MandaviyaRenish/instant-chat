@@ -4,15 +4,16 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB3uaOwe6z6djgZIHMTia0f8c1ydsQe2vE",
-  authDomain: "instant-chat-ed8fd.firebaseapp.com",
-  projectId: "instant-chat-ed8fd",
-  storageBucket: "instant-chat-ed8fd.appspot.com",
-  messagingSenderId: "434145950533",
-  appId: "1:434145950533:web:b6943a9a90317d82f55c2c",
+  apiKey: "AIzaSyB161qpnsKwhh5F3acpvqs_cbpyUwgtvB4",
+  authDomain: "instant-chat-e2934.firebaseapp.com",
+  projectId: "instant-chat-e2934",
+  storageBucket: "instant-chat-e2934.appspot.com",
+  messagingSenderId: "669567694755",
+  appId: "1:669567694755:web:0cef3d4ba4c6154dd08c16",
+  measurementId: "G-3E21QC4JN2",
 };
 
-// Initialize Firebase
+//Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
 export const storage = getStorage();
